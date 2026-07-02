@@ -10,7 +10,7 @@ wget -qO ~/.bashrc https://raw.githubusercontent.com/$USERNAME/Example-Sandbox-s
 
 # Get the bash_aliases from git repo and save to .bash_aliases 
 echo "hello, getting bash_aliases and saving your old one";
-wget -qo ~/.bash_aliases https://raw.githubusercontent.com/$USERNAME/example-sandbox-script/refs/heads/main/bash_aliases
+wget -qO ~/.bash_aliases https://raw.githubusercontent.com/$USERNAME/example-sandbox-script/refs/heads/main/bash_aliases
 
 
 git config --global user.email "$USEREMAIL";
