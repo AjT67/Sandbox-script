@@ -2,7 +2,7 @@
 # usefull links for customizing your bash
 
 ## for anis colors
-https://ansi-generator.pages.dev/
+https://ansi-generator.pages.dev/   
 https://ansicolor.com/
 
 # for bash prompts
