@@ -26,7 +26,7 @@ git config --global credential.helper 'cache --timeout=7200';
 echo "and downloading your repos";
 for r in "${REPOS[@]}"; do
 	if [ ! -d "$HOME/$r" ]; then
-		git clone "https://github.com/$USERNAME/$r.git $HOME";
+		git clone "https://github.com/$USERNAME/$r.git" "$HOME";
 	fi
 done;
 
