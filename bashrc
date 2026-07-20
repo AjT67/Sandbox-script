@@ -8,5 +8,4 @@ BLUE="\[\e[38;2;0;172;253m\]";
 AE="\[\e[0m\]";
 MPC=$CYAN;
 
-PS1="$MPC\u@sandbox:\w\n> $AE"
-
+PS1='\[\e[1;32m\]\u@\h:\w\$ \[\e[0m\]'
